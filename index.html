@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit & Inspection</title>
+    <style>
+        /* This ensures the iframe takes up the full space of the container */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh; /* Full Viewport Height */
+            overflow: hidden; /* Prevents double scrollbars */
+            background-color: #f4f6f9;
+        }
+        
+        /* The iframe wrapper */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        class="app-container" 
+        src="https://script.google.com/macros/s/AKfycbwBuENN_0fsfnTGMICQPAmrqv4ajDnTD-4YIJ__FSmOT37Gp0ov-9hHYorg_tTBgvcG/exec" 
+        allowfullscreen="true" 
+        sandbox="allow-scripts allow-same-origin allow-popups allow-forms">
+    </iframe>
+
+</body>
+</html>
